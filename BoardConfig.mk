@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/motorola/hiphi
+DEVICE_PATH := device/motorola/eqs
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -50,8 +50,8 @@ TARGET_USES_REMOTEPROC := true
 TARGET_SCREEN_DENSITY := 400
 
 # Init
-TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_hiphi
-TARGET_RECOVERY_DEVICE_MODULES := libinit_hiphi
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_eqs
+TARGET_RECOVERY_DEVICE_MODULES := libinit_eqs
 
 # Kernel
 TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/kernel

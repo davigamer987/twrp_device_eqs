@@ -17,10 +17,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota.mk)
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 # Inherit from hiphi device
-$(call inherit-product, device/motorola/hiphi/device.mk)
+$(call inherit-product, device/motorola/eqs/device.mk)
 
-PRODUCT_DEVICE := hiphi
-PRODUCT_NAME := twrp_hiphi
+PRODUCT_DEVICE := eqs
+PRODUCT_NAME := twrp_eqs
 PRODUCT_BRAND := motorola
 PRODUCT_MODEL := motorola edge 30 pro
 PRODUCT_MANUFACTURER := motorola
@@ -28,6 +28,6 @@ PRODUCT_MANUFACTURER := motorola
 PRODUCT_GMS_CLIENTID_BASE := android-motorola
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="hiphi-user 12 S3SHS32.12-42-11-5 bf0951 release-keys"
+    PRIVATE_BUILD_DESC="eqs_ge-user 12 S3SQS32.16-72-31-3 47c58c-b5d541 release-keys"
 
-BUILD_FINGERPRINT := motorola/hiphi/hiphi:12/S3SHS32.12-42-11-5/bf0951:user/release-keys
+BUILD_FINGERPRINT := motorola/eqs_ge/msi:12/S3SQS32M.16-72-31-3/47c58c-b5d541:user/release-keys
