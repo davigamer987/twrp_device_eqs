@@ -20,5 +20,5 @@ elif [ [ "$soc_id" -eq 457 ] || [ "$soc_id" -eq 482 ] || [ "$soc_id" -eq 552 ] \
     enable vendor.keymaster-sb-4-0
     start vendor.keymaster-sb-4-0
 else
-    setprop vendor.gatekeeper.disable_spu true
+    setprop vendor.gatekeeper.disable_spu false
 fi

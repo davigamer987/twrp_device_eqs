@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := /home/davi/twrp/device/motorola/eqs
+DEVICE_PATH := device/motorola/eqs
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
